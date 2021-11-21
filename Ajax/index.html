@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Demo</title>
+</head>
+<body>
+    <button id="button">Get Text</button>
+    <script>
+        // capture button click
+        document.getElementById("button").addEventListener("click", loadText);
+
+        function loadText() {
+            // console.log("Button was clicked")
+            // create XHR object
+            var xhr = new XMLHttpRequest();
+            console.log(xhr);
+        }
+    </script>
+</body>
+</html>
